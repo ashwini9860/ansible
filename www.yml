@@ -1,0 +1,7 @@
+---
+#www.yml : playbook for web servers
+- hosts: test
+  remote_user: vagrant
+  sudo: yes
+  roles:
+   - nginx
